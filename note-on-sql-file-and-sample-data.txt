@@ -1,0 +1,6 @@
+
+
+-------------------------------- Note on SQL file and sample data -----------------------------------------------
+1. There is no different option for the admins to do registration. They do resgistration just like a general member. Then his/her accountType is changed to 'admin' directly in the database to make him/her an admin. This process is intended to be changed in the next version.
+2. [For sample data] In the account table first 3 records (i.e. records with nid 1, 2 and 3) are reserved for the admins whose passwords are 1, 2 and 3 respectively. For other records passwords are exactly (case sensitive) the first name.
+3. The sample data are random and the sample images (apartments, persons) are randomly collected from the Internet for learning purpose.
